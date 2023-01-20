@@ -11,6 +11,10 @@
         
     }
 
+    .bgc-header{
+        background-color: #2C3E50;
+        height: 90px;
+    }
 
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
