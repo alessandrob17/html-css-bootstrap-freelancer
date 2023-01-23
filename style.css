@@ -4,6 +4,17 @@
     box-sizing: border-box;
     }
 
+    img{
+        max-width: 100%;
+    }
+
+    :root{
+        --green: #1abc9c;
+        --grey: #3a546d;
+	    --dark-grey: #2c3e50;
+    }
+
+
 /* DEBUG BORDER */
 
     .ms__bg{
@@ -11,8 +22,27 @@
         
     }
 
+    .bg-sect1-main{
+        background-color: var(--green);
+    }
+
+    .line-white{
+        background-color: white;
+        height: 5px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+
+    .ms__radius{
+        border-radius: 10px;
+    }
     .bgc-header{
-        background-color: #2C3E50;
+        background-color: var(--dark-grey);
+    }
+
+    .bg1-footer{
+        background-color: var(--grey);
     }
 
     .ms__padding{
