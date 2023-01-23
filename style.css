@@ -47,6 +47,9 @@
         border-radius: 10px;
     }
 
+    .avatar{
+        max-width: 250px;
+    }
 
 
     .ms__radius{
