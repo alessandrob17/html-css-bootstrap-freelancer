@@ -14,6 +14,15 @@
 	    --dark-grey: #2c3e50;
     }
 
+    ul {
+        list-style-type: none;
+        
+    }
+
+    .txt-decor{
+        text-decoration: none;
+        color: white;
+    }
 
 /* DEBUG BORDER */
 
@@ -22,16 +31,22 @@
         
     }
 
-    .bg-sect1-main{
+    .bg-green{
         background-color: var(--green);
     }
 
     .line-white{
         background-color: white;
         height: 5px;
-        width: 170px;
         border-radius: 10px;
     }
+
+    .line-grey{
+        background-color: var(--grey);
+        height: 5px;
+        border-radius: 10px;
+    }
+
 
 
     .ms__radius{
