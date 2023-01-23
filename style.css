@@ -51,6 +51,14 @@
         max-width: 250px;
     }
 
+    .border-white{
+        border: white 1px solid;
+        border-radius: 999px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
 
     .ms__radius{
         border-radius: 10px;
